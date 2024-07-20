@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rating</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 44px;
+            height: 100vh;
+            color: orange;
+        }
+        input[type="checkbox"]{
+            appearance: none;
+        }
+        input[type="checkbox"]:checked +label ~label{
+            color: #555;
+        }
+
+
+    </style>
+</head>
+<body>
+    <input type="checkbox" name="rating" id="star-1">
+    <label for="star-1" class="fa fa-star"></label>
+    <input type="checkbox" name="rating" id="star-2">
+    <label for="star-2" class="fa fa-star"></label>
+    <input type="checkbox" name="rating" id="star-3">
+    <label for="star-3" class="fa fa-star"></label>
+    <input type="checkbox" name="rating" id="star-4">
+    <label for="star-4" class="fa fa-star"></label>
+    <input type="checkbox" name="rating" id="star-5">
+    <label for="star-5" class="fa fa-star"></label>
+</body>
+</html>
